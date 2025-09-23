@@ -2,33 +2,59 @@
   margin: 0;
   padding: 0;
   font-family: 'Lexend';
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
 }
 
-header {
-  background-color: #111;
+.header {
+  background-image: url(images/banner.png);
+  height: 100px;
+  background-position: center;
+  background-size: cover;
   display: flex;
-  flex-direction: row;
-  padding: 30px;
-  justify-content: space-around;
-  color: #fff;
+  padding: 50px;
+  font-weight: bold;
+  color: #ffffff;
   align-items: center;
-  position: sticky;
-  margin-bottom: 80px;
-  transition: 0.3s ease-in;
 }
 
-.links a {
+.item {
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-}
-
-a {
+  color: #000;
+  background-color: #ffffff;
   padding: 20px;
+  display: flex;
+  font-size: 17px;
+  border-radius: 17px;
 }
 
-header a:hover {
-  color: #f1f1f1;
-  transition: color 0.3s ease-in;
+.item1, .item2 {
+  display: flex;
+  gap: 50px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apresentacao {
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.texto {
+  z-index: 2;
+  font-size: 17px;
+}
+
+.cerebro {
+  scale: 100%;
+  position: absolute;
+  z-index: 1;
+  translate: -275px -220px;
 }
