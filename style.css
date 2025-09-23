@@ -15,22 +15,54 @@
   font-weight: bold;
   color: #ffffff;
   align-items: center;
-  position: sticky;
-  margin-bottom: 80px;
-  transition: 0.3s ease-in;
 }
 
-.links a {
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+.container1 {
+  display: none;
+  justify-self: center;
+  padding: 50px;
+  background-color: aliceblue;
+  flex-direction: column;
+  text-align: left;
+  margin: 50px;
 }
 
-a {
-  padding: 20px;
+.container1 h1 {
+  margin: 10px;
+  font-size: 40px;
 }
 
-header a:hover {
-  color: #f1f1f1;
-  transition: color 0.3s ease-in;
+.container1 p {
+  margin: 10px;
+}
+
+.apresentacao {
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  display: block;
+}
+
+.apresentacao:hover {
+  transform: scale(105%);
+  transition: transform 0.5s ease;
+  transform-origin: center;
+}
+
+.texto {
+  translate: 0px 110px;
+  z-index: 2;
+  font-size: 26px;
+}
+
+.cerebro {
+  scale: 180%;
+  position: absolute;
+  z-index: 1;
+  translate: -275px -60px;
 }
