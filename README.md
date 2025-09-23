@@ -5,7 +5,7 @@ Como publicar um site com o GitHub
 
 1. Com sua conta registrada no GitHub, crie um repositório.
 
-2. Insira o nome, descrição e ative o README.md do repositório.
+2. Insira o nome e descrição do repositório (README.md opcional).
 
 3. Vá para as Setting (Configurações) do repositório, e clique em Pages (Páginas).
 
@@ -15,4 +15,6 @@ Como publicar um site com o GitHub
 
 6. Clique em Commit Changes.
 
-7. Volte ao Pages e acesse o link do seu site publicado.
+7. Clique em Commit Changes novamente.
+
+8. Volte ao Pages e acesse o link do seu site publicado.

@@ -44,7 +44,7 @@ header p {
 
 li:hover {
   font-size: 25px;
-  transition: 0.3s ease; 
+  transition: 0.3s ease;
 }
 
 .lis {
@@ -206,4 +206,56 @@ li:hover {
 .jogomusica {
   display: flex;
   justify-content: space-between;
+}
+
+.links {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.links h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.foto:hover .info {
+  max-height: 300px;
+  padding: 20px;
+  pointer-events: auto;
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 10;
+  width: auto;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.foto {
+  position: relative;
+  display: inline-block; /* ou flex, se precisar */
 }
