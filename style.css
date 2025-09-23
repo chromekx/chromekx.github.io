@@ -42,6 +42,11 @@ header p {
   font-size: 35px;
 }
 
+li:hover {
+  font-size: 25px;
+  transition: 0.3s ease; 
+}
+
 .lis {
   font-size: 23px;
   margin: 25px;
@@ -75,12 +80,130 @@ header p {
 }
 
 .cantores img {
-  height: 200px;
-  width: 200px;
+  height: 210px;
+  width: 210px;
   border-radius: 30px;
 }
 
 .cantores img:hover {
   scale: 110%;
   transition: 0.3s ease;
+}
+
+.desenhos {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.desenhos h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.desenhos img {
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.desenhos img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.jogos {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+  width: fit-content;
+}
+
+.jogos h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos1 {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sla {
+  display: flex;
+  gap: 20px;
+}
+
+.jogos img {
+  height: 210px;
+  width: 210px;
+  border-radius: 30px;
+}
+
+.jogos img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.musicas {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.musicas h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.musicas img {
+  height: 210px;
+  width: 210px;
+  border-radius: 30px;
+}
+
+.musicas img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.jogomusica {
+  display: flex;
+  justify-content: space-between;
 }
