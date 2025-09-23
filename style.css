@@ -3,66 +3,84 @@
   padding: 0;
   font-family: 'Lexend';
   scroll-behavior: smooth;
+
 }
 
-.header {
+header {
   background-image: url(images/banner.png);
-  height: 100px;
+  height: 300px;
   background-position: center;
   background-size: cover;
   display: flex;
-  padding: 50px;
-  font-weight: bold;
-  color: #ffffff;
-  align-items: center;
+  margin: 60px;
+  transition: 1s ease;
+  border-radius: 30px;
 }
 
-.container1 {
-  display: none;
-  justify-self: center;
-  padding: 50px;
-  background-color: aliceblue;
-  flex-direction: column;
-  text-align: left;
-  margin: 50px;
-}
-
-.container1 h1 {
+header h1 {
   margin: 10px;
   font-size: 40px;
 }
 
-.container1 p {
+header p {
   margin: 10px;
 }
 
 .apresentacao {
-  justify-self: center;
-  width: 300px;
-  height: 300px;
-  padding: 50px;
-  border-radius: 100%;
-  text-align: center;
-  align-content: center;
-  position: absolute;
-  display: block;
+  background-color: transparent;
+  border: 3px solid #000;
+  height: fit-content;
+  padding: 60px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.apresentacao:hover {
-  transform: scale(105%);
-  transition: transform 0.5s ease;
-  transform-origin: center;
+.apresentacao h2 {
+  font-size: 35px;
 }
 
-.texto {
-  translate: 0px 110px;
-  z-index: 2;
-  font-size: 26px;
+.lis {
+  font-size: 23px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
-.cerebro {
-  scale: 180%;
-  position: absolute;
-  z-index: 1;
-  translate: -275px -60px;
+.cantores {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.cantores h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.cantores img {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.cantores img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
 }
