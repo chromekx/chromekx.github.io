@@ -1,6 +1,6 @@
-Victor Henrique Souza | 1° Info
-
+Victor Henrique Souza
 Publicar Aplicações Web - Professor Gabriel Caixeta Silva
+1° Info
 
 Como publicar um site com o GitHub
 
