@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -243,3 +244,250 @@ li:hover {
   font-size: 20.5px;
   transition: 0.3s ease;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend';
+  scroll-behavior: smooth;
+
+}
+
+header {
+  background-image: url(images/banner.png);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  margin: 60px;
+  transition: 1s ease;
+  border-radius: 30px;
+}
+
+header h1 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+header p {
+  margin: 10px;
+}
+
+.apresentacao {
+  background-color: transparent;
+  border: 3px solid #000;
+  height: fit-content;
+  padding: 60px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.apresentacao h2 {
+  font-size: 35px;
+}
+
+li:hover {
+  font-size: 25px;
+  transition: 0.3s ease;
+}
+
+.lis {
+  font-size: 23px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cantores {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.cantores h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.cantores img {
+  height: 210px;
+  width: 210px;
+  border-radius: 30px;
+}
+
+.cantores img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.desenhos {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.desenhos h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.desenhos img {
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.desenhos img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.jogos {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+  width: fit-content;
+}
+
+.jogos h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos1 {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sla {
+  display: flex;
+  gap: 20px;
+}
+
+.jogos img, .musicas img {
+  height: 190px;
+  width: 190px;
+  border-radius: 30px;
+}
+
+.jogos img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.musicas {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 55px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.musicas h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.fotos img, .fotos1 img {
+  margin: 10px;
+}
+
+.musicas img:hover {
+  scale: 110%;
+  transition: 0.3s ease;
+}
+
+.info {
+  margin-left: 15px;
+}
+
+.jogomusica {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  background-color: transparent;
+  height: fit-content;
+  padding: 80px;
+  margin: 60px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 3px solid #000;
+}
+
+.links h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.links a {
+  width: auto;
+  background-color: #dfdfdf;
+  padding: 25px;
+  border-radius: 30px;
+  color: #5561d3;
+  font-size: 19px;
+}
+
+.links a:hover {
+  color: #3b1fb9;
+  padding: 24px;
+  font-size: 20.5px;
+  transition: 0.3s ease;
+}
+>>>>>>> 0f36916115ae5129cde79ec71529719c87a653f4
